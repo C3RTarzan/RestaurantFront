@@ -1,0 +1,45 @@
+@import './color';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+html, body, #root{  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $darkBC;
+    
+}
+
+div, header,section,footer,main{
+    display: flex;
+}
+
+a{
+    user-select: none;
+}
+
+main{  
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #292b2f;
+    cursor: pointer;
+  }
+  
+::-webkit-scrollbar-thumb {
+background: #36393f;
+border-radius: 3px;
+}
